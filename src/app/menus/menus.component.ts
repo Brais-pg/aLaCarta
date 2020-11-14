@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-menu-desplegable',
-  templateUrl: './menu-desplegable.component.html',
-  styleUrls: ['./menu-desplegable.component.scss']
+  selector: 'app-menus',
+  templateUrl: './menus.component.html',
+  styleUrls: ['./menus.component.scss']
 })
-export class MenuDesplegableComponent implements OnInit {
+export class MenusComponent implements OnInit {
 
   panelOpenState = false;
 

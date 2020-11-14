@@ -4,14 +4,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuDesplegableComponent } from './menu-desplegable/menu-desplegable.component';
 
-import {MatExpansionModule} from '@angular/material/expansion';
+import { MatExpansionModule } from '@angular/material/expansion';
+
+import { CartaComponent } from './carta/carta.component';
+import { MenusComponent } from './menus/menus.component';
+import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
+import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuDesplegableComponent
+    CartaComponent,
+    MenusComponent,
+    SobreNosotrosComponent,
+    PaginaPrincipalComponent
   ],
   imports: [
     BrowserModule,

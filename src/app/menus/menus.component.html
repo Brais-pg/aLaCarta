@@ -1,0 +1,27 @@
+<div>
+    <a routerLink='/index' routerLinkActive='active'>Página principal</a>
+    <a routerLink='/carta' routerLinkActive='active'>Carta</a>
+    <a routerLink='/menus' routerLinkActive='active'>Menús</a>
+    <a routerLink='/sobreNosotros' routerLinkActive='active'>Sobre nosotros</a>
+</div>
+<mat-accordion *ngFor="let m of menus">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{m.nombre}}
+            </mat-panel-title>
+            <mat-panel-description>
+                {{m.precio}}€
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <table>
+            <tr>
+                <th>Primer plato</th>
+                <td>{{m.primerPlato}}</td>
+            </tr>
+            <tr>
+                <th>Segundo plato</th>
+                <td>{{m.segundoPlato}}</td>
+        </table>
+    </mat-expansion-panel>
+</mat-accordion>
