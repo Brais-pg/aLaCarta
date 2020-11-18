@@ -1,0 +1,42 @@
+#navigationBar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  background-color: #1976d2;
+  height: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#navigationBar div {
+  width: 25%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#navigationBar div a {
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  padding: 20px;
+}
+
+#navigationBar div a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+/*# sourceMappingURL=app.component.css.map */

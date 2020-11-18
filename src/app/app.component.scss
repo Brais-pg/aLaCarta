@@ -1,0 +1,29 @@
+#navigationBar {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    background-color: #1976d2;
+    height: 50px;
+    align-content: center;
+
+    div {
+        width: 25%;
+        justify-content: center;
+
+        a{
+            color: white;
+            text-decoration: none;
+            margin: auto;
+            padding: 20px;
+
+            &:hover {
+                background-color: hsla(0,0%,100%,.15);
+            }
+        }
+    }
+}

@@ -7,6 +7,7 @@ import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.componen
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 
 const routes: Routes = [
+  { path: '',   redirectTo: 'menus', pathMatch: 'full' },
   {path: 'index', component:PaginaPrincipalComponent},
   {path: 'carta', component: CartaComponent},
   {path: 'menus', component:MenusComponent},
