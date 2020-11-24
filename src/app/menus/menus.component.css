@@ -2,4 +2,16 @@
   margin-top: 100px;
   width: 50%;
 }
+
+#menu {
+  width: 100%;
+}
+
+#menu tr {
+  text-align: left;
+}
+
+#menu tr th {
+  width: 30%;
+}
 /*# sourceMappingURL=menus.component.css.map */

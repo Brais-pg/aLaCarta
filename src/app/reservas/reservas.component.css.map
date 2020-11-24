@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;EACb,eAAe,EAAE,QAAQ;EACzB,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,SAAS;CAOpB;;AAZD,AAMI,WANO,CAMP,EAAE,CAAA;EACE,MAAM,EAAE,eAAe;CAI1B;;AAXL,AAQQ,WARG,CAMP,EAAE,CAEE,EAAE,CAAC;EACC,MAAM,EAAE,eAAe;CAC1B",
+    "sources": [
+        "reservas.component.scss"
+    ],
+    "names": [],
+    "file": "reservas.component.css"
+}

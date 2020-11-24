@@ -2,3 +2,13 @@
     margin-top: 100px;
     width: 50%;
 }
+
+#menu {
+    width: 100%;
+    tr {
+        text-align: left;
+        th {
+            width: 30%;
+        }
+    }
+}

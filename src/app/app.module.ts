@@ -11,6 +11,7 @@ import { CartaComponent } from './carta/carta.component';
 import { MenusComponent } from './menus/menus.component';
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
+import { ReservasComponent } from './reservas/reservas.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.co
     CartaComponent,
     MenusComponent,
     SobreNosotrosComponent,
-    PaginaPrincipalComponent
+    PaginaPrincipalComponent,
+    ReservasComponent
   ],
   imports: [
     BrowserModule,
