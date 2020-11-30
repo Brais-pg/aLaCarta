@@ -1,16 +1,42 @@
-#calendario {
-  width: 80%;
+#reservas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+#reservas #formularioReserva {
+  line-height: 40px;
+  width: 40%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#reservas #formularioReserva #btnReserva {
+  text-align: center;
+}
+
+#reservas #calendario {
+  width: 40%;
   height: 400px;
   border-collapse: collapse;
   border: 1px solid black;
-  margin: 40px auto;
+  margin: 40px;
 }
 
-#calendario tr {
+#reservas #calendario tr {
   border: 1px solid black;
 }
 
-#calendario tr td {
+#reservas #calendario tr td {
   border: 1px solid black;
 }
 /*# sourceMappingURL=reservas.component.css.map */

@@ -1,13 +1,30 @@
-#calendario {
-    width: 80%;
-    height: 400px;
-    border-collapse: collapse;
-    border: 1px solid black;
-    margin: 40px auto;
-    tr{
+#reservas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    #formularioReserva {
+        line-height: 40px;
+        width: 40%;
+        margin: auto;
         border: 1px solid black;
-        td {
+        border-radius: 20px;
+        padding: 20px;
+        #btnReserva {
+            text-align: center;
+        }
+    }
+    #calendario {
+        width: 40%;
+        height: 400px;
+        border-collapse: collapse;
+        border: 1px solid black;
+        margin: 40px;
+        tr{
             border: 1px solid black;
+            td {
+                border: 1px solid black;
+            }
         }
     }
 }

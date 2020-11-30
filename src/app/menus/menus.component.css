@@ -1,3 +1,8 @@
+#avisoMenus {
+  color: #414141;
+  margin: 10px;
+}
+
 #acordeon {
   margin-top: 100px;
   width: 50%;
@@ -9,6 +14,7 @@
 
 #menu tr {
   text-align: left;
+  height: 45px;
 }
 
 #menu tr th {
