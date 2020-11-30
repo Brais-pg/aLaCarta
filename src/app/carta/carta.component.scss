@@ -1,0 +1,24 @@
+#carta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    div {
+        width: 40%;
+        margin: 20px 40px;
+        fieldset {
+            legend {
+                font-size: 20px;
+            }
+            border-radius: 0 20px;
+            box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+            table {
+                width: 100%;
+                tr {
+                    .precio {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}

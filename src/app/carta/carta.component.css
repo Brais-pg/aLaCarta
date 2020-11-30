@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=carta.component.css.map */
+#carta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#carta div {
+  width: 40%;
+  margin: 20px 40px;
+}
+
+#carta div fieldset {
+  border-radius: 0 20px;
+  -webkit-box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+#carta div fieldset legend {
+  font-size: 20px;
+}
+
+#carta div fieldset table {
+  width: 100%;
+}
+
+#carta div fieldset table tr .precio {
+  text-align: right;
+}
+/*# sourceMappingURL=carta.component.css.map */
