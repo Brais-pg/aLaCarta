@@ -58,8 +58,9 @@
   line-height: 40px;
 }
 
-#footer div div {
+#footer div div, #footer div a {
   color: #9898a0;
+  text-decoration: none;
 }
 
 #footer div .titulo {
