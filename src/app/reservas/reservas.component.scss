@@ -3,17 +3,26 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    #formularioReserva {
-        line-height: 40px;
+    #forms {
         width: 40%;
         margin: auto;
-        border: 1px solid black;
-        border-radius: 20px;
-        padding: 20px;
-        #btnReserva {
-            text-align: center;
+        #formularioReserva, #formularioCancelarReserva {
+            line-height: 40px;
+            width: 100%;
+            margin: 20px auto;
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 20px;
+            h1 {
+                font-size: 20px;
+                text-align: center;
+            }
+            #btnReserva {
+                text-align: center;
+            }
         }
     }
+    
     #calendario {
         width: 40%;
         height: 400px;

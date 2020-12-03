@@ -1,28 +1,36 @@
-<mat-accordion id="acordeon" *ngFor="let m of menus">
-    <mat-expansion-panel>
-        <mat-expansion-panel-header>
-            <mat-panel-title>
-                {{m.nombre}}
-            </mat-panel-title>
-            <mat-panel-description>
-                {{m.precio}}€
-            </mat-panel-description>
-        </mat-expansion-panel-header>
-        <table id="menu">
-            <tr>
-                <th>Primer plato:</th>
-                <td>{{m.primerPlato}}</td>
-            </tr>
-            <tr>
-                <th>Segundo plato:</th>
-                <td>{{m.segundoPlato}}</td>
-            </tr>
-            <tr>
-                <th>Postre:</th>
-                <td>{{m.postre}}</td>
-            </tr>
-        </table>
-    </mat-expansion-panel>
-</mat-accordion>
-
-<div id="avisoMenus">*Todos los menús vienen con una bebida a elegir incluída</div>
+<div id="menus">
+    <div id="acordeonDiv">
+        <mat-accordion id="acordeon" *ngFor="let m of menus">
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        {{m.nombre}}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        {{m.precio}}€
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <table id="menu">
+                    <tr>
+                        <th>Primer plato:</th>
+                        <td>{{m.primerPlato}}</td>
+                    </tr>
+                    <tr>
+                        <th>Segundo plato:</th>
+                        <td>{{m.segundoPlato}}</td>
+                    </tr>
+                    <tr>
+                        <th>Postre:</th>
+                        <td>{{m.postre}}</td>
+                    </tr>
+                </table>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <div id="avisoMenus">*Todos los menús vienen con una bebida a elegir incluída</div>
+    </div>   
+    <div id="barraLateral">
+        <div><img src="assets/img/comida1.jpg"></div>
+        <div><img src="assets/img/comida2.jpg"></div>
+        <div><img src="assets/img/comida3.jpg"></div>
+    </div>
+</div>

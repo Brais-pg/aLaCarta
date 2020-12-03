@@ -11,16 +11,26 @@
   width: 100%;
 }
 
-#reservas #formularioReserva {
-  line-height: 40px;
+#reservas #forms {
   width: 40%;
   margin: auto;
+}
+
+#reservas #forms #formularioReserva, #reservas #forms #formularioCancelarReserva {
+  line-height: 40px;
+  width: 100%;
+  margin: 20px auto;
   border: 1px solid black;
   border-radius: 20px;
   padding: 20px;
 }
 
-#reservas #formularioReserva #btnReserva {
+#reservas #forms #formularioReserva h1, #reservas #forms #formularioCancelarReserva h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#reservas #forms #formularioReserva #btnReserva, #reservas #forms #formularioCancelarReserva #btnReserva {
   text-align: center;
 }
 

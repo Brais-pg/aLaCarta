@@ -1,20 +1,43 @@
-#avisoMenus {
-    color: rgb(65, 65, 65);
-    margin: 10px;
-}
+#menus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    #acordeonDiv {
+        width: 65%;
+        margin: 20px;
+        @media (max-width: 991px) {
+            width: 55%;
+        }
+    }
+    #avisoMenus {
+        color: rgb(65, 65, 65);
+        margin: 10px;
+    }
+    
+    #acordeon {
+        margin-top: 100px;
+        width: 80%;
+    }
+    
+    #menu {
+        width: 100%;
+        tr {
+            text-align: left;
+            height: 45px;
+            th {
+                width: 30%;
+            }
+        }
+    }
 
-#acordeon {
-    margin-top: 100px;
-    width: 50%;
-}
-
-#menu {
-    width: 100%;
-    tr {
-        text-align: left;
-        height: 45px;
-        th {
-            width: 30%;
+    #barraLateral {
+        width: 400px;
+        div {
+            text-align: center;
+            img {
+                width: 80%;
+                margin: 20px auto;
+            }
         }
     }
 }

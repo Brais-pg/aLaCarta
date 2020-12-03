@@ -54,6 +54,12 @@
       justify-content: space-around;
 }
 
+@media (max-width: 991px) {
+  #footer {
+    bottom: -380px;
+  }
+}
+
 #footer div {
   line-height: 40px;
 }

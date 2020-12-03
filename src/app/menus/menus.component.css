@@ -1,23 +1,59 @@
-#avisoMenus {
+#menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#menus #acordeonDiv {
+  width: 65%;
+  margin: 20px;
+}
+
+@media (max-width: 991px) {
+  #menus #acordeonDiv {
+    width: 55%;
+  }
+}
+
+#menus #avisoMenus {
   color: #414141;
   margin: 10px;
 }
 
-#acordeon {
+#menus #acordeon {
   margin-top: 100px;
-  width: 50%;
+  width: 80%;
 }
 
-#menu {
+#menus #menu {
   width: 100%;
 }
 
-#menu tr {
+#menus #menu tr {
   text-align: left;
   height: 45px;
 }
 
-#menu tr th {
+#menus #menu tr th {
   width: 30%;
+}
+
+#menus #barraLateral {
+  width: 400px;
+}
+
+#menus #barraLateral div {
+  text-align: center;
+}
+
+#menus #barraLateral div img {
+  width: 80%;
+  margin: 20px auto;
 }
 /*# sourceMappingURL=menus.component.css.map */

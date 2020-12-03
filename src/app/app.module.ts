@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MatExpansionModule } from '@angular/material/expansion';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { CartaComponent } from './carta/carta.component';
 import { MenusComponent } from './menus/menus.component';
@@ -26,7 +27,8 @@ import { ReservasComponent } from './reservas/reservas.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatExpansionModule
+    MatExpansionModule, 
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

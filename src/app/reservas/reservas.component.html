@@ -1,10 +1,19 @@
 <div id="reservas">
-    <form id="formularioReserva">
-        <div>Nombre: <input type="text"></div>
-        <div>Nº de personas: <input type="number"></div>
-        <div>Fecha: <input type="date"></div>
-        <div><input id="btnReserva" type="submit" value="Reservar"></div>
-    </form>
+    <div id="forms">
+        <form id="formularioReserva">
+            <h1>Realizar reserva</h1>
+            <div>DNI: <input type="text"></div>
+            <div>Nombre: <input type="text"></div>
+            <div>Nº de personas: <input type="number"></div>
+            <div>Fecha: <input type="date"></div>
+            <div><input id="btnReserva" type="submit" value="Reservar"></div>
+        </form>
+        <form id="formularioCancelarReserva">
+            <h1>Cancelar reserva</h1>
+            <div>DNI: <input type="text"></div>
+            <div><input type="submit" id="btnCancelarReserva" value="Cancelar reserva"></div>
+        </form>
+    </div>
 
     <table id="calendario">
         <tr>
