@@ -1,11 +1,41 @@
-<div id="navigationBar">
-  <div><a routerLink='/index' routerLinkActive='active'>Página principal</a></div>
-  <div><a routerLink='/carta' routerLinkActive='active'>Carta</a></div>
-  <div><a routerLink='/menus' routerLinkActive='active'>Menús</a></div>
-  <div><a routerLink='/sobreNosotros' routerLinkActive='active'>Sobre nosotros</a></div>
-  <div><a routerLink='/reservas' routerLinkActive='active'>Reservas</a></div>
+<div id="navigationBar" style="height: 100vh; overflow: hidden;">
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Responsive Navigation</span>
+      <span class="menu-spacer"></span>
+      <div fxShow="true" fxHide.lt-md>
+        <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+        <a routerLink='/index' routerLinkActive='active'>Página principal</a>
+        <a routerLink='/carta' routerLinkActive='active'>Carta</a>
+        <a routerLink='/menus' routerLinkActive='active'>Menús</a>
+        <a routerLink='/sobreNosotros' routerLinkActive='active'>Sobre nosotros</a>
+        <a routerLink='/reservas' routerLinkActive='active'>Reservas</a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill>
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+        <ul>
+          <li><a (click)="sidenav.toggle()" href="" mat-list-item>Close</a></li>
+          <li><a routerLink='/index' routerLinkActive='active'>Página principal</a></li>
+          <li><a routerLink='/carta' routerLinkActive='active'>Carta</a></li>
+          <li><a routerLink='/menus' routerLinkActive='active'>Menús</a></li>
+          <li><a routerLink='/sobreNosotros' routerLinkActive='active'>Sobre nosotros</a></li>
+          <li><a routerLink='/reservas' routerLinkActive='active'>Reservas</a></li>
+        </ul>              
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
 </div>
-<router-outlet></router-outlet>
+
 <div id="footer">
   <div>
     <div class="titulo">Sobre nosotros</div>

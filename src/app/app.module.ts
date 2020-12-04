@@ -6,6 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+
+
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { CartaComponent } from './carta/carta.component';
@@ -28,7 +35,12 @@ import { ReservasComponent } from './reservas/reservas.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     MatExpansionModule, 
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

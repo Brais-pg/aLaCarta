@@ -9,6 +9,23 @@
     height: 50px;
     align-content: center;
 
+    mat-sidenav {
+        li {
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-sizing: border-box;
+            padding: 0 16px;
+            position: relative;
+            line-height: 45px;
+        }
+    }
+
+    mat-toolbar-row {
+        margin-top: 50px;
+    }
+
     div {
         justify-content: center;
 
