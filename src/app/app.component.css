@@ -19,6 +19,29 @@
       align-content: center;
 }
 
+#navigationBar mat-sidenav li {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 16px;
+  position: relative;
+  line-height: 45px;
+}
+
+#navigationBar mat-toolbar-row {
+  margin-top: 50px;
+}
+
 #navigationBar div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;

@@ -3,6 +3,9 @@
     flex-direction: row;
     #contentPrincipal {
         width: 70%;
+        @media (max-width: 360px) {
+            width: 100%;
+        }
         #horario {
             width: 90%;
             margin: 20px auto;
@@ -23,14 +26,22 @@
             }
         }
     }
+
+    .ocultar {
+        @media (max-width: 360px) {
+            display: none;
+        }
+    }
     
     #barraLateral {
         width: 400px;
+        margin-top: 15px;
         div {
             text-align: center;
             img {
                 width: 80%;
-                margin: 20px auto;
+                margin: 5px auto;
+                border-collapse: collapse;
             }
         }
     }

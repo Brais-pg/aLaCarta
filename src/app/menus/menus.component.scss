@@ -8,6 +8,9 @@
         @media (max-width: 991px) {
             width: 55%;
         }
+        @media (max-width: 360px) {
+            width: 100%;
+        }
     }
     #avisoMenus {
         color: rgb(65, 65, 65);
@@ -30,13 +33,20 @@
         }
     }
 
+    .ocultar {
+        @media (max-width: 360px) {
+            display: none;
+        }
+    }
+
     #barraLateral {
         width: 400px;
+        margin-top: 15px;
         div {
             text-align: center;
             img {
                 width: 80%;
-                margin: 20px auto;
+                margin: 5px auto;
             }
         }
     }

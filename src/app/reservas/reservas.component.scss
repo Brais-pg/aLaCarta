@@ -6,6 +6,10 @@
     #forms {
         width: 40%;
         margin: auto;
+        @media (max-width: 360px) {
+            width: 70%;
+            margin: 0 32px;
+        }
         #formularioReserva, #formularioCancelarReserva {
             line-height: 40px;
             width: 100%;
@@ -29,6 +33,10 @@
         border-collapse: collapse;
         border: 1px solid black;
         margin: 40px;
+        @media (max-width: 360px) {
+            width: 79%;
+            height: 270px;
+        }
         tr{
             border: 1px solid black;
             td {

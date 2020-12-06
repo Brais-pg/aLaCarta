@@ -54,6 +54,7 @@
 
 #menus #barraLateral div img {
   width: 80%;
-  margin: 20px auto;
+  margin: 5px auto;
+  border-collapse: collapse;
 }
 /*# sourceMappingURL=menus.component.css.map */

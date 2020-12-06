@@ -55,6 +55,14 @@
     @media (max-width: 991px) {
         bottom: -380px;
     }
+    @media (max-width: 360px) {
+        bottom: -150px;
+    }
+    .ocultar {
+        @media (max-width: 360px) {
+            display: none;
+        }
+    }
     div{
         line-height: 40px;
         div, a {
