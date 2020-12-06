@@ -6,8 +6,14 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #1976d2;
-    height: 50px;
+    height: 110%;
     align-content: center;
+    @media (max-width: 991px) {
+        height: 144%;
+    }
+    @media (max-width: 360px) {
+        height: 110%;
+    }
 
     mat-sidenav {
         li {
@@ -56,7 +62,7 @@
         bottom: -380px;
     }
     @media (max-width: 360px) {
-        bottom: -150px;
+        bottom: -200px;
     }
     .ocultar {
         @media (max-width: 360px) {

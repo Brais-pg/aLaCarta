@@ -16,6 +16,13 @@
   margin: auto;
 }
 
+@media (max-width: 360px) {
+  #reservas #forms {
+    width: 70%;
+    margin: 0 32px;
+  }
+}
+
 #reservas #forms #formularioReserva, #reservas #forms #formularioCancelarReserva {
   line-height: 40px;
   width: 100%;
@@ -40,6 +47,13 @@
   border-collapse: collapse;
   border: 1px solid black;
   margin: 40px;
+}
+
+@media (max-width: 360px) {
+  #reservas #calendario {
+    width: 79%;
+    height: 270px;
+  }
 }
 
 #reservas #calendario tr {

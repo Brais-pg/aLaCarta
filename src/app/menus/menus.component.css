@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 360px) {
+  #menus #acordeonDiv {
+    width: 100%;
+  }
+}
+
 #menus #avisoMenus {
   color: #414141;
   margin: 10px;
@@ -44,8 +50,15 @@
   width: 30%;
 }
 
+@media (max-width: 360px) {
+  #menus .ocultar {
+    display: none;
+  }
+}
+
 #menus #barraLateral {
   width: 400px;
+  margin-top: 15px;
 }
 
 #menus #barraLateral div {
@@ -55,6 +68,5 @@
 #menus #barraLateral div img {
   width: 80%;
   margin: 5px auto;
-  border-collapse: collapse;
 }
 /*# sourceMappingURL=menus.component.css.map */

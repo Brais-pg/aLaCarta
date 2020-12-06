@@ -12,6 +12,12 @@
   width: 70%;
 }
 
+@media (max-width: 360px) {
+  #paginaPrincipal #contentPrincipal {
+    width: 100%;
+  }
+}
+
 #paginaPrincipal #contentPrincipal #horario {
   width: 90%;
   margin: 20px auto;
@@ -41,8 +47,15 @@
   border-radius: 20px;
 }
 
+@media (max-width: 360px) {
+  #paginaPrincipal .ocultar {
+    display: none;
+  }
+}
+
 #paginaPrincipal #barraLateral {
   width: 400px;
+  margin-top: 15px;
 }
 
 #paginaPrincipal #barraLateral div {
@@ -51,6 +64,7 @@
 
 #paginaPrincipal #barraLateral div img {
   width: 80%;
-  margin: 20px auto;
+  margin: 5px auto;
+  border-collapse: collapse;
 }
 /*# sourceMappingURL=pagina-principal.component.css.map */

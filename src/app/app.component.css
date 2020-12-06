@@ -14,9 +14,21 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #1976d2;
-  height: 50px;
+  height: 110%;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+@media (max-width: 991px) {
+  #navigationBar {
+    height: 144%;
+  }
+}
+
+@media (max-width: 360px) {
+  #navigationBar {
+    height: 110%;
+  }
 }
 
 #navigationBar mat-sidenav li {
@@ -80,6 +92,18 @@
 @media (max-width: 991px) {
   #footer {
     bottom: -380px;
+  }
+}
+
+@media (max-width: 360px) {
+  #footer {
+    bottom: -200px;
+  }
+}
+
+@media (max-width: 360px) {
+  #footer .ocultar {
+    display: none;
   }
 }
 
