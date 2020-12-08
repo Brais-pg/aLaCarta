@@ -21,6 +21,8 @@ import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.componen
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 import { ReservasComponent } from './reservas/reservas.component';
 
+import {HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +42,8 @@ import { ReservasComponent } from './reservas/reservas.component';
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

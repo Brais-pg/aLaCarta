@@ -2,16 +2,16 @@
     <div id="forms">
         <form id="formularioReserva">
             <h1>Realizar reserva</h1>
-            <div>DNI: <input type="text"></div>
-            <div>Nombre: <input type="text"></div>
-            <div>Nº de personas: <input type="number"></div>
-            <div>Fecha: <input type="date"></div>
-            <div><input id="btnReserva" type="submit" value="Reservar"></div>
+            <div>DNI: <input id="dniReserva" type="text"></div>
+            <div>Nombre: <input id="nombreReserva" type="text"></div>
+            <div>Nº de personas: <input id="numeroReserva" type="string"></div>
+            <div>Fecha: <input id="fechaReserva" type="string"></div>
+            <div><button id="btnReserva" (click)="alta()">Reservar</button></div>
         </form>
         <form id="formularioCancelarReserva">
             <h1>Cancelar reserva</h1>
             <div>DNI: <input type="text"></div>
-            <div><input type="submit" id="btnCancelarReserva" value="Cancelar reserva"></div>
+            <div><button id="btnCancelarReserva" (click)="baja('79341427Y')">Cancelar reserva</button></div>
         </form>
     </div>
 
